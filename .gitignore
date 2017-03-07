@@ -1,5 +1,3 @@
 # Ignore docs files
 .sass-cache
 .sass-cache/*
-
-# figure out what CSS files to ignore?
