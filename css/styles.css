@@ -448,6 +448,17 @@ template {
   display: none; }
 
 /* set up layout styling for header, footer, etc. */
+/* line 1, ../sass/components/_planet-buttons.scss */
+planet {
+  display: block;
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out; }
+  /* line 8, ../sass/components/_planet-buttons.scss */
+  planet:hover {
+    font-size: 30px; }
+
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */
 body {

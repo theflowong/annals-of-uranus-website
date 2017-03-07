@@ -1,0 +1,12 @@
+planet {
+  display: block;
+  position: relative; // should these be part of layout?
+
+  padding: $planet-button-padding; // from abstracts/_variables.scss
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    font-size: 30px;
+  }
+}
