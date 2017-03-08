@@ -448,18 +448,33 @@ template {
   display: none; }
 
 /* set up layout styling for header, footer, etc. */
+/* line 3, ../sass/layout/_main.scss */
+body {
+  padding: 0px 20px; }
+
+/* line 7, ../sass/layout/_main.scss */
+header {
+  text-align: center; }
+
+/* line 11, ../sass/layout/_main.scss */
+article {
+  display: block; }
+
 /* line 1, ../sass/components/_planet-buttons.scss */
 planet {
   display: block;
   position: relative;
   padding: 0.5rem 1rem;
+  width: 100px;
+  text-align: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 8, ../sass/components/_planet-buttons.scss */
+  /* line 13, ../sass/components/_planet-buttons.scss */
   planet:hover {
     font-size: 30px; }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */
 body {
-  background: url("../img/milky-way-071015.jpg"); }
+  background: url("../img/milky-way-071015.jpg");
+  color: white; }
