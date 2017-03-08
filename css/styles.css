@@ -460,17 +460,58 @@ header {
 article {
   display: block; }
 
-/* line 1, ../sass/components/_planet-buttons.scss */
-planet {
-  display: block;
+/* line 27, ../sass/components/_planet-buttons.scss */
+#planet-1 {
   position: relative;
-  padding: 0.5rem 1rem;
-  width: 100px;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000000);
+  padding: 1rem 1rem;
   text-align: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 13, ../sass/components/_planet-buttons.scss */
-  planet:hover {
+  /* line 22, ../sass/components/_planet-buttons.scss */
+  #planet-1:hover {
+    font-size: 30px; }
+
+/* line 31, ../sass/components/_planet-buttons.scss */
+#planet-2 {
+  position: relative;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #800080, #000000);
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out; }
+  /* line 22, ../sass/components/_planet-buttons.scss */
+  #planet-2:hover {
+    font-size: 30px; }
+
+/* line 35, ../sass/components/_planet-buttons.scss */
+#planet-3 {
+  position: relative;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #ff0000, #000000);
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out; }
+  /* line 22, ../sass/components/_planet-buttons.scss */
+  #planet-3:hover {
     font-size: 30px; }
 
 /* home page specifics */

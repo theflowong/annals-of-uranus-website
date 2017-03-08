@@ -1,11 +1,20 @@
-planet {
-  display: block;
+//$planet-1-color: #5cabff;
+// hmm figure out if you can make a mixin with an argument for each planet?
+
+@mixin planet($size, $color) {
   position: relative; // or absolute; if floating around. should these be part of layout?
 
+  // https://cssanimation.rocks/spheres/
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: $size;
+  width: $size;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, $color, #000);
   // look up CSS animations and keyframes (i.e., transform: translateX(20px);)
 
   padding: $planet-button-padding; // from abstracts/_variables.scss
-  width: 100px;
   text-align: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
@@ -13,4 +22,16 @@ planet {
   &:hover {
     font-size: 30px;
   }
+}
+
+#planet-1 {
+  @include planet(300px, #5cabff);
+}
+
+#planet-2 {
+  @include planet(200px, purple);
+}
+
+#planet-3 {
+  @include planet(100px, red);
 }
