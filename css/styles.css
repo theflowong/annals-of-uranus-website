@@ -460,7 +460,7 @@ header {
 article {
   display: block; }
 
-/* line 27, ../sass/components/_planet-buttons.scss */
+/* line 37, ../sass/components/_planet-buttons.scss */
 #planet-1 {
   position: relative;
   display: block;
@@ -472,13 +472,22 @@ article {
   background: radial-gradient(circle at 100px 100px, #5cabff, #000000);
   padding: 1rem 1rem;
   text-align: center;
+  display: flex;
+  align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 22, ../sass/components/_planet-buttons.scss */
+  /* line 24, ../sass/components/_planet-buttons.scss */
+  #planet-1 a {
+    margin: 0 auto; }
+    /* line 26, ../sass/components/_planet-buttons.scss */
+    #planet-1 a:hover {
+      transform: scale(1.1); }
+  /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-1:hover {
-    font-size: 30px; }
+    font-size: 30px;
+    background: radial-gradient(circle at 100px 100px, #f5faff, #000000); }
 
-/* line 31, ../sass/components/_planet-buttons.scss */
+/* line 41, ../sass/components/_planet-buttons.scss */
 #planet-2 {
   position: relative;
   display: block;
@@ -490,13 +499,22 @@ article {
   background: radial-gradient(circle at 100px 100px, #800080, #000000);
   padding: 1rem 1rem;
   text-align: center;
+  display: flex;
+  align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 22, ../sass/components/_planet-buttons.scss */
+  /* line 24, ../sass/components/_planet-buttons.scss */
+  #planet-2 a {
+    margin: 0 auto; }
+    /* line 26, ../sass/components/_planet-buttons.scss */
+    #planet-2 a:hover {
+      transform: scale(1.1); }
+  /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-2:hover {
-    font-size: 30px; }
+    font-size: 30px;
+    background: radial-gradient(circle at 100px 100px, #ff1aff, #000000); }
 
-/* line 35, ../sass/components/_planet-buttons.scss */
+/* line 45, ../sass/components/_planet-buttons.scss */
 #planet-3 {
   position: relative;
   display: block;
@@ -508,11 +526,20 @@ article {
   background: radial-gradient(circle at 100px 100px, #ff0000, #000000);
   padding: 1rem 1rem;
   text-align: center;
+  display: flex;
+  align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 22, ../sass/components/_planet-buttons.scss */
+  /* line 24, ../sass/components/_planet-buttons.scss */
+  #planet-3 a {
+    margin: 0 auto; }
+    /* line 26, ../sass/components/_planet-buttons.scss */
+    #planet-3 a:hover {
+      transform: scale(1.1); }
+  /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-3:hover {
-    font-size: 30px; }
+    font-size: 30px;
+    background: radial-gradient(circle at 100px 100px, #ff9999, #000000); }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */

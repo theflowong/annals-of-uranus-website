@@ -16,11 +16,21 @@
 
   padding: $planet-button-padding; // from abstracts/_variables.scss
   text-align: center;
+  display: flex; // for vertical align
+  align-items: center; // for vertical align
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 
+  a {
+    margin: 0 auto;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   &:hover {
     font-size: 30px;
+    background: radial-gradient(circle at 100px 100px, lighten($color, 30), #000);
   }
 }
 
