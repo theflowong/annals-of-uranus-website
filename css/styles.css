@@ -477,10 +477,10 @@ article {
   display: block;
   background: black;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  width: 20vw;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000000);
+  background: radial-gradient(circle at 6.66667vw 6.66667vw, #5cabff, #000000);
   padding: 1rem 1rem;
   text-align: center;
   display: flex;
@@ -496,7 +496,7 @@ article {
   /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-1:hover {
     font-size: 30px;
-    background: radial-gradient(circle at 100px 100px, #f5faff, #000000); }
+    background: radial-gradient(circle at 6.66667vw 6.66667vw, #f5faff, #000000); }
 
 /* line 41, ../sass/components/_planet-buttons.scss */
 #planet-2 {
@@ -504,10 +504,10 @@ article {
   display: block;
   background: black;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 25vw;
+  width: 25vw;
   margin: 0;
-  background: radial-gradient(circle at 66.66667px 66.66667px, #800080, #000000);
+  background: radial-gradient(circle at 8.33333vw 8.33333vw, #800080, #000000);
   padding: 1rem 1rem;
   text-align: center;
   display: flex;
@@ -523,7 +523,7 @@ article {
   /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-2:hover {
     font-size: 30px;
-    background: radial-gradient(circle at 66.66667px 66.66667px, #ff1aff, #000000); }
+    background: radial-gradient(circle at 8.33333vw 8.33333vw, #ff1aff, #000000); }
 
 /* line 45, ../sass/components/_planet-buttons.scss */
 #planet-3 {
@@ -531,10 +531,10 @@ article {
   display: block;
   background: black;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 15vw;
+  width: 15vw;
   margin: 0;
-  background: radial-gradient(circle at 33.33333px 33.33333px, #ff0000, #000000);
+  background: radial-gradient(circle at 5vw 5vw, #ff0000, #000000);
   padding: 1rem 1rem;
   text-align: center;
   display: flex;
@@ -550,7 +550,7 @@ article {
   /* line 31, ../sass/components/_planet-buttons.scss */
   #planet-3:hover {
     font-size: 30px;
-    background: radial-gradient(circle at 33.33333px 33.33333px, #ff9999, #000000); }
+    background: radial-gradient(circle at 5vw 5vw, #ff9999, #000000); }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */

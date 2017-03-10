@@ -35,13 +35,13 @@
 }
 
 #planet-1 {
-  @include planet(300px, #5cabff);
+  @include planet(20vw, #5cabff);
 }
 
 #planet-2 {
-  @include planet(200px, purple);
+  @include planet(25vw, purple);
 }
 
 #planet-3 {
-  @include planet(100px, red);
+  @include planet(15vw, red);
 }
