@@ -483,7 +483,7 @@ header {
 article {
   display: block; }
 
-/* line 37, ../sass/components/_planet-buttons.scss */
+/* line 38, ../sass/components/_planet-buttons.scss */
 #planet-1 {
   position: relative;
   display: block;
@@ -499,18 +499,18 @@ article {
   align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 24, ../sass/components/_planet-buttons.scss */
+  /* line 25, ../sass/components/_planet-buttons.scss */
   #planet-1 a {
     margin: 0 auto; }
-    /* line 26, ../sass/components/_planet-buttons.scss */
+    /* line 27, ../sass/components/_planet-buttons.scss */
     #planet-1 a:hover {
       transform: scale(1.05); }
-  /* line 31, ../sass/components/_planet-buttons.scss */
+  /* line 32, ../sass/components/_planet-buttons.scss */
   #planet-1:hover {
     font-size: 30px;
     background: radial-gradient(circle at 6.66667vw 6.66667vw, #f5faff, #000000); }
 
-/* line 41, ../sass/components/_planet-buttons.scss */
+/* line 42, ../sass/components/_planet-buttons.scss */
 #planet-2 {
   position: relative;
   display: block;
@@ -526,18 +526,18 @@ article {
   align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 24, ../sass/components/_planet-buttons.scss */
+  /* line 25, ../sass/components/_planet-buttons.scss */
   #planet-2 a {
     margin: 0 auto; }
-    /* line 26, ../sass/components/_planet-buttons.scss */
+    /* line 27, ../sass/components/_planet-buttons.scss */
     #planet-2 a:hover {
       transform: scale(1.05); }
-  /* line 31, ../sass/components/_planet-buttons.scss */
+  /* line 32, ../sass/components/_planet-buttons.scss */
   #planet-2:hover {
     font-size: 30px;
     background: radial-gradient(circle at 8.33333vw 8.33333vw, #ff1aff, #000000); }
 
-/* line 45, ../sass/components/_planet-buttons.scss */
+/* line 46, ../sass/components/_planet-buttons.scss */
 #planet-3 {
   position: relative;
   display: block;
@@ -553,16 +553,43 @@ article {
   align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out; }
-  /* line 24, ../sass/components/_planet-buttons.scss */
+  /* line 25, ../sass/components/_planet-buttons.scss */
   #planet-3 a {
     margin: 0 auto; }
-    /* line 26, ../sass/components/_planet-buttons.scss */
+    /* line 27, ../sass/components/_planet-buttons.scss */
     #planet-3 a:hover {
       transform: scale(1.05); }
-  /* line 31, ../sass/components/_planet-buttons.scss */
+  /* line 32, ../sass/components/_planet-buttons.scss */
   #planet-3:hover {
     font-size: 30px;
     background: radial-gradient(circle at 5vw 5vw, #ff9999, #000000); }
+
+/* line 50, ../sass/components/_planet-buttons.scss */
+#planet-random {
+  position: relative;
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+  margin: 0;
+  background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffff00, #000000);
+  padding: 1rem 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out; }
+  /* line 25, ../sass/components/_planet-buttons.scss */
+  #planet-random a {
+    margin: 0 auto; }
+    /* line 27, ../sass/components/_planet-buttons.scss */
+    #planet-random a:hover {
+      transform: scale(1.05); }
+  /* line 32, ../sass/components/_planet-buttons.scss */
+  #planet-random:hover {
+    font-size: 30px;
+    background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffff99, #000000); }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */

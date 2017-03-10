@@ -1,8 +1,9 @@
 //$planet-1-color: #5cabff;
-// hmm figure out if you can make a mixin with an argument for each planet?
+// use javascript to animate planets bouncing
+// review window.requestAnimationFrame
 
 @mixin planet($size, $color) {
-  position: relative; // or absolute; if floating around. should these be part of layout?
+  position: relative; // or absolute; if floating around. should these be part of layout (or modules)?
 
   // https://cssanimation.rocks/spheres/
   display: block;
@@ -44,4 +45,8 @@
 
 #planet-3 {
   @include planet(15vw, red);
+}
+
+#planet-random {
+  @include planet(10vw, yellow);
 }
