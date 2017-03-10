@@ -1,13 +1,13 @@
 @keyframes bounceIn {
   0% {
-    transform: scale(0.1);
+    @include prefix(transform, scale(0.1), webkit moz ms o);
     opacity: 0;
   }
   60% {
-    transform: scale(1.2);
+    @include prefix(transform, scale(1.2), webkit moz ms o);
     opacity: 1;
   }
   100% {
-    transform: scale(1);
+    @include prefix(transform, scale(1), webkit moz ms o);
   }
 }
