@@ -20,6 +20,37 @@
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); } }
+@keyframes move-eye-skew {
+  0% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none; }
+  20% {
+    -webkit-transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
+    -moz-transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
+    -ms-transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
+    -o-transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95);
+    transform: translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95); }
+  25%, 44% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none; }
+  50%, 60% {
+    -webkit-transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95);
+    -moz-transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95);
+    -ms-transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95);
+    -o-transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95);
+    transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95); }
+  66%, 100% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none; } }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -573,13 +604,15 @@ article {
   height: 10vw;
   width: 10vw;
   margin: 0;
-  background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffff00, #000000);
+  background: radial-gradient(circle at 3.33333vw 3.33333vw, #fcfcfc, #000000);
   padding: 1rem 1rem;
   text-align: center;
   display: flex;
   align-items: center;
   font-size: 20px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 100%; }
   /* line 25, ../sass/components/_planet-buttons.scss */
   #planet-random a {
     margin: 0 auto; }
@@ -589,7 +622,43 @@ article {
   /* line 32, ../sass/components/_planet-buttons.scss */
   #planet-random:hover {
     font-size: 30px;
-    background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffff99, #000000); }
+    background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffffff, #000000); }
+  /* line 55, ../sass/components/_planet-buttons.scss */
+  #planet-random .iris {
+    width: 40%;
+    height: 40%;
+    margin: 30%;
+    border-radius: 100%;
+    background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
+    -webkit-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+    -moz-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+    -ms-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+    -o-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+    transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+    position: absolute;
+    animation: move-eye-skew 5s ease-out infinite; }
+    /* line 65, ../sass/components/_planet-buttons.scss */
+    #planet-random .iris:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 37.5%;
+      height: 37.5%;
+      border-radius: 100%;
+      top: 31.25%;
+      left: 31.25%;
+      background: black; }
+    /* line 77, ../sass/components/_planet-buttons.scss */
+    #planet-random .iris:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 31.25%;
+      height: 31.25%;
+      border-radius: 100%;
+      top: 18.75%;
+      left: 18.75%;
+      background: rgba(255, 255, 255, 0.2); }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */

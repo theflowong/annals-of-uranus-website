@@ -11,3 +11,21 @@
     @include prefix(transform, scale(1), webkit moz ms o);
   }
 }
+
+@keyframes move-eye-skew {
+  0% {
+    @include prefix(transform, none, webkit moz ms o);
+  }
+  20% {
+    @include prefix(transform, translateX(-68px) translateY(30px) skewX(15deg) skewY(-10deg) scale(0.95), webkit moz ms o);
+  }
+  25%, 44% {
+    @include prefix(transform, none, webkit moz ms o);
+  }
+  50%, 60% {
+    @include prefix(transform, translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scale(0.95), webkit moz ms o);
+  }
+  66%, 100% {
+    @include prefix(transform, none, webkit moz ms o);
+  }
+}
