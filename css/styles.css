@@ -1,4 +1,3 @@
-/* abstracts, vendors, base, layout, components, pages, themes */
 @keyframes bounceIn {
   0% {
     -webkit-transform: scale(0.1);
@@ -611,8 +610,20 @@ article {
   align-items: center;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-  width: 100%;
-  height: 100%; }
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -ms-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  -o-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%; }
   /* line 25, ../sass/components/_planet-buttons.scss */
   #planet-random a {
     margin: 0 auto; }
@@ -623,42 +634,62 @@ article {
   #planet-random:hover {
     font-size: 30px;
     background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffffff, #000000); }
-  /* line 55, ../sass/components/_planet-buttons.scss */
-  #planet-random .iris {
-    width: 40%;
-    height: 40%;
-    margin: 30%;
-    border-radius: 100%;
-    background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
-    -webkit-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-    -moz-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-    -ms-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-    -o-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-    transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-    position: absolute;
-    animation: move-eye-skew 5s ease-out infinite; }
+  /* line 60, ../sass/components/_planet-buttons.scss */
+  #planet-random .ball {
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
     /* line 65, ../sass/components/_planet-buttons.scss */
-    #planet-random .iris:before {
+    #planet-random .ball:after {
       content: "";
-      display: block;
       position: absolute;
-      width: 37.5%;
-      height: 37.5%;
+      top: 5%;
+      left: 10%;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 14%, rgba(255, 255, 255, 0) 24%);
+      -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+      -moz-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+      -ms-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+      -o-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+      transform: translateX(-80px) translateY(-90px) skewX(-20deg); }
+    /* line 80, ../sass/components/_planet-buttons.scss */
+    #planet-random .ball .iris {
+      width: 40%;
+      height: 40%;
+      margin: 30%;
       border-radius: 100%;
-      top: 31.25%;
-      left: 31.25%;
-      background: black; }
-    /* line 77, ../sass/components/_planet-buttons.scss */
-    #planet-random .iris:after {
-      content: "";
-      display: block;
+      background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
+      -webkit-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+      -moz-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+      -ms-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+      -o-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
+      transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
       position: absolute;
-      width: 31.25%;
-      height: 31.25%;
-      border-radius: 100%;
-      top: 18.75%;
-      left: 18.75%;
-      background: rgba(255, 255, 255, 0.2); }
+      animation: move-eye-skew 5s ease-out infinite; }
+      /* line 90, ../sass/components/_planet-buttons.scss */
+      #planet-random .ball .iris:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 37.5%;
+        height: 37.5%;
+        border-radius: 100%;
+        top: 31.25%;
+        left: 31.25%;
+        background: black; }
+      /* line 102, ../sass/components/_planet-buttons.scss */
+      #planet-random .ball .iris:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 31.25%;
+        height: 31.25%;
+        border-radius: 100%;
+        top: 18.75%;
+        left: 18.75%;
+        background: rgba(255, 255, 255, 0.2); }
 
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */

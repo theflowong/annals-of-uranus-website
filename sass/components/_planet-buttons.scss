@@ -49,41 +49,67 @@
 
 #planet-random {
   @include planet(10vw, #fcfcfc);
-  width: 100%;
-  height: 100%;
 
-  .iris {
-    width: 40%;
-    height: 40%;
-    margin: 30%;
-    border-radius: 100%;
-    background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
-    @include prefix(transform, translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg), webkit moz ms o);
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+  @include prefix(perspective, 1200px, webkit moz ms o);
+  @include prefix(perspective-origin, 50% 50%, webkit moz ms o);
+
+  .ball {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+  &:after {
+    content: "";
     position: absolute;
-    animation: move-eye-skew 5s ease-out infinite;
+    top: 5%;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%,
+                rgba(255, 255, 255, 0.8),
+                rgba(255, 255, 255, 0.8) 14%,
+                rgba(255, 255, 255, 0) 24%);
+    @include prefix(transform, translateX(-80px) translateY(-90px) skewX(-20deg), webkit moz ms o);
+  }
 
-    &:before {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 37.5%;
-      height: 37.5%;
+    .iris {
+      width: 40%;
+      height: 40%;
+      margin: 30%;
       border-radius: 100%;
-      top: 31.25%;
-      left: 31.25%;
-      background: black;
-    }
+      background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
+      @include prefix(transform, translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg), webkit moz ms o);
+      position: absolute;
+      animation: move-eye-skew 5s ease-out infinite;
 
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 31.25%;
-      height: 31.25%;
-      border-radius: 100%;
-      top: 18.75%;
-      left: 18.75%;
-      background: rgba(255, 255, 255, 0.2);
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 37.5%;
+        height: 37.5%;
+        border-radius: 100%;
+        top: 31.25%;
+        left: 31.25%;
+        background: black;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 31.25%;
+        height: 31.25%;
+        border-radius: 100%;
+        top: 18.75%;
+        left: 18.75%;
+        background: rgba(255, 255, 255, 0.2);
+      }
     }
   }
 }
