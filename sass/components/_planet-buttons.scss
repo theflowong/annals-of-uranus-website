@@ -50,6 +50,8 @@
 #planet-random {
   @include planet(10vw, #fcfcfc);
 
+  // https://cssanimation.rocks/spheres/
+
   width: 300px;
   height: 300px;
   display: inline-block;
