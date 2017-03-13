@@ -498,6 +498,22 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot");
+  src: url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot?#iefix") format("embedded-opentype"), local("Source Code Pro"), local("Source-Code-Pro-regular"), url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff2") format("woff2"), url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff") format("woff"), url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.ttf") format("truetype"), url("/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.svg#SourceCodePro") format("svg"); }
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.eot");
+  src: url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.eot?#iefix") format("embedded-opentype"), local("Source Code Pro Bold"), local("Source-Code-Pro-700"), url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.woff2") format("woff2"), url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.woff") format("woff"), url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.ttf") format("truetype"), url("/fonts/Source-Code-Pro-700/Source-Code-Pro-700.svg#SourceCodePro") format("svg"); }
+/* line 1, ../sass/base/_typography.scss */
+body {
+  font-family: 'Source Code Pro'; }
+
 /* set up layout styling for header, footer, etc. */
 /* line 3, ../sass/layout/_main.scss */
 body {
@@ -634,12 +650,12 @@ article {
   #planet-random:hover {
     font-size: 30px;
     background: radial-gradient(circle at 3.33333vw 3.33333vw, #ffffff, #000000); }
-  /* line 60, ../sass/components/_planet-buttons.scss */
+  /* line 62, ../sass/components/_planet-buttons.scss */
   #planet-random .ball {
     display: inline-block;
     width: 100%;
     height: 100%; }
-    /* line 65, ../sass/components/_planet-buttons.scss */
+    /* line 67, ../sass/components/_planet-buttons.scss */
     #planet-random .ball:after {
       content: "";
       position: absolute;
@@ -654,7 +670,7 @@ article {
       -ms-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
       -o-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
       transform: translateX(-80px) translateY(-90px) skewX(-20deg); }
-    /* line 80, ../sass/components/_planet-buttons.scss */
+    /* line 82, ../sass/components/_planet-buttons.scss */
     #planet-random .ball .iris {
       width: 40%;
       height: 40%;
@@ -668,7 +684,7 @@ article {
       transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
       position: absolute;
       animation: move-eye-skew 5s ease-out infinite; }
-      /* line 90, ../sass/components/_planet-buttons.scss */
+      /* line 92, ../sass/components/_planet-buttons.scss */
       #planet-random .ball .iris:before {
         content: "";
         display: block;
@@ -679,7 +695,7 @@ article {
         top: 31.25%;
         left: 31.25%;
         background: black; }
-      /* line 102, ../sass/components/_planet-buttons.scss */
+      /* line 104, ../sass/components/_planet-buttons.scss */
       #planet-random .ball .iris:after {
         content: "";
         display: block;
