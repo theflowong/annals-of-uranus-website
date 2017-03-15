@@ -522,8 +522,8 @@ body {
 /* line 7, ../sass/layout/_main.scss */
 header {
   text-align: center;
-  background-color: purple;
-  animation: bounceIn 2s; }
+  animation: bounceIn 2s;
+  color: white; }
 
 /* line 13, ../sass/layout/_main.scss */
 article {
