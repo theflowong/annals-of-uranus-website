@@ -6,6 +6,8 @@ Objective: to be as wacky and chaotic as possible
 
 ## To install
 
+The site uses Jekyll and Sass.
+
 1. Clone repo, and enter folder through command line.
 
 2. Run Sass for styles.
@@ -17,4 +19,9 @@ Objective: to be as wacky and chaotic as possible
   Ctrl+C
   ```
   
-3. Open index.html to view the site!
+3. Run Jekyll.
+  ```
+  jekyll serve
+  ```
+
+4. Open index.html to view the site!
