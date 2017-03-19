@@ -521,11 +521,16 @@ body {
 
 /* line 7, ../sass/layout/_main.scss */
 header {
-  text-align: center;
-  animation: bounceIn 2s;
-  color: white; }
+  text-align: center; }
+  /* line 11, ../sass/layout/_main.scss */
+  header .header--site-title {
+    color: orange;
+    animation: bounceIn 2s; }
+  /* line 16, ../sass/layout/_main.scss */
+  header .header--page-title {
+    animation: bounceIn 3s; }
 
-/* line 13, ../sass/layout/_main.scss */
+/* line 21, ../sass/layout/_main.scss */
 article {
   display: block; }
 

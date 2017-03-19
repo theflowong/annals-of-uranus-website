@@ -6,7 +6,16 @@ body {
 
 header {
   text-align: center;
-  animation: bounceIn 2s;
+  //animation: bounceIn 2s;
+
+  .header--site-title {
+    color: orange;
+    animation: bounceIn 2s;
+  }
+
+  .header--page-title {
+    animation: bounceIn 3s;
+  }
 }
 
 article {
