@@ -4,20 +4,10 @@ body {
   padding: 0px 20px;
 }
 
-header {
-  text-align: center;
-  //animation: bounceIn 2s;
-
-  .header--site-title {
-    color: orange;
-    animation: bounceIn 2s;
-  }
-
-  .header--page-title {
-    animation: bounceIn 3s;
-  }
-}
+@import "header";
 
 article {
   display: block;
 }
+
+@import "footer";
