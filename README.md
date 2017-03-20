@@ -10,11 +10,11 @@ The site is built with Jekyll and styled with Sass, so we'll use the command lin
 
 1. Clone repo and download files, and enter folder locally through command line.
 
-2. Run Sass for styles.
+2. Use Compass to watch for Sass style changes.
     ```
     compass watch
     ```
-   Once complete, exit the task.
+   Once css/styles.css has been written, exit the task.
   
     ```
     Ctrl+C
