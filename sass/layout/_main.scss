@@ -1,13 +1,25 @@
 /* set up layout styling for header, footer, etc. */
 
+html,
 body {
-  padding: 0px 20px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-
-@import "header";
 
 article {
   display: block;
 }
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  padding-bottom: $footer-height;
+}
+
+@import "header";
 
 @import "footer";

@@ -516,28 +516,44 @@ body {
 
 /* set up layout styling for header, footer, etc. */
 /* line 3, ../sass/layout/_main.scss */
+html,
 body {
-  padding: 0px 20px; }
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+/* line 10, ../sass/layout/_main.scss */
+article {
+  display: block; }
+
+/* line 14, ../sass/layout/_main.scss */
+.container {
+  min-height: 100%;
+  position: relative; }
+
+/* line 19, ../sass/layout/_main.scss */
+.content {
+  padding-bottom: 3rem; }
 
 /* line 1, ../sass/layout/_header.scss */
 header {
-  text-align: center; }
-  /* line 5, ../sass/layout/_header.scss */
+  text-align: center;
+  padding: 1rem; }
+  /* line 6, ../sass/layout/_header.scss */
   header .header--site-title {
     color: orange;
     animation: bounceIn 2s; }
-  /* line 10, ../sass/layout/_header.scss */
+  /* line 11, ../sass/layout/_header.scss */
   header .header--page-title {
     animation: bounceIn 3s; }
-
-/* line 9, ../sass/layout/_main.scss */
-article {
-  display: block; }
 
 /* line 1, ../sass/layout/_footer.scss */
 footer {
   position: absolute;
-  bottom: 0; }
+  width: 100%;
+  height: 3rem;
+  bottom: 0;
+  left: 0; }
 
 /* line 38, ../sass/components/_planet-buttons.scss */
 #planet-1 {
