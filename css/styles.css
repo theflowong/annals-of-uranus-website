@@ -701,6 +701,8 @@ footer {
       width: 40%;
       height: 40%;
       margin: 30%;
+      left: 0;
+      top: 0;
       border-radius: 100%;
       background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
       -webkit-transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
@@ -710,7 +712,7 @@ footer {
       transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
       position: absolute;
       animation: move-eye-skew 5s ease-out infinite; }
-      /* line 92, ../sass/components/_planet-buttons.scss */
+      /* line 94, ../sass/components/_planet-buttons.scss */
       #planet-random .ball .iris:before {
         content: "";
         display: block;
@@ -721,7 +723,7 @@ footer {
         top: 31.25%;
         left: 31.25%;
         background: black; }
-      /* line 104, ../sass/components/_planet-buttons.scss */
+      /* line 106, ../sass/components/_planet-buttons.scss */
       #planet-random .ball .iris:after {
         content: "";
         display: block;

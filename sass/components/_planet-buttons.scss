@@ -83,6 +83,8 @@
       width: 40%;
       height: 40%;
       margin: 30%;
+      left: 0;
+      top: 0;
       border-radius: 100%;
       background: radial-gradient(circle at 50% 50%, #208ab4 0%, #6fbfff 30%, #4381b2 100%);
       @include prefix(transform, translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg), webkit moz ms o);
