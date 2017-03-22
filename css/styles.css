@@ -550,6 +550,7 @@ header {
 /* line 1, ../sass/layout/_footer.scss */
 footer {
   position: absolute;
+  text-align: center;
   width: 100%;
   height: 3rem;
   bottom: 0;
@@ -738,5 +739,5 @@ footer {
 /* home page specifics */
 /* line 3, ../sass/pages/_home.scss */
 body {
-  background: url("../img/milky-way-071015.jpg");
+  background: url("../img/starry-sky.png");
   color: white; }
