@@ -19,7 +19,7 @@
   text-align: center;
   display: flex; // for vertical align
   align-items: center; // for vertical align
-  font-size: 20px;
+  font-size: $size*0.15;
   transition: all 0.3s ease-in-out;
 
   a {
@@ -30,7 +30,8 @@
   }
 
   &:hover {
-    font-size: 30px;
+    //font-size: 30px;
+    font-size: $size*0.2;
     background: radial-gradient(circle at $size/3 $size/3, lighten($color, 30), #000);
   }
 }
