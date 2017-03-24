@@ -1,5 +1,16 @@
 # theme: jekyll-theme-hacker
 
+# Site settings
+title: Annals of Uranus
+# email: email address
+description: >
+  Description for site.
+baseurl: ""
+github_username: theflowong
+
+
+# Other settings
+
 permalink: pretty
 #relative_permalinks: true
 
