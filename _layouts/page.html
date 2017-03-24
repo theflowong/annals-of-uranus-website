@@ -1,26 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <title>Annals of Uranus: {{ page.title }}</title>
 
-  <meta charset="utf-8">
-  <meta name="description" content="Annals of Uranus">
-  <meta name="author" content="Flo Wong">
-
-  <link rel="stylesheet" href="/css/styles.css" type="text/css">
-
-  {% if page.custom_css %}
-    {% for stylesheet in page.custom_css %}
-    <link rel="stylesheet" href="/css/pages/{{ stylesheet }}.css" media="screen" type="text/css">
-    {% endfor %}
-  {% endif %}
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-
-</head>
+{% include head.html %}
 
 <body>
   <section class="container">
@@ -39,9 +21,7 @@
       {{ content }}
     </article>
 
-    <footer>
-      <h3>Website created by <a href="https://flowong.com">Flo Wong</a></h3>
-    </footer>
+    {% include footer.html %}
   </section>
 
   <script src="js/scripts.js"></script>

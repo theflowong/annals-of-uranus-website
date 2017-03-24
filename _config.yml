@@ -6,14 +6,12 @@ title: Annals of Uranus
 description: >
   Description for site.
 baseurl: ""
-github_username: theflowong
+url: "http://localhost:4000"
+github_username: theflowong # creator of site
 
 
-# Other settings
-
+# Build settings
 permalink: pretty
-#relative_permalinks: true
-
 sass:
   sass_dir: _sass
   style: :compressed
