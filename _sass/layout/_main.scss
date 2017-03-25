@@ -1,4 +1,5 @@
-/* set up layout styling for header, footer, etc. */
+@import "header";
+@import "footer";
 
 html,
 body {
@@ -17,9 +18,8 @@ article {
 }
 
 .content {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: $footer-height;
 }
-
-@import "header";
-
-@import "footer";
