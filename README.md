@@ -10,16 +10,15 @@ The site is built with Jekyll and styled with Sass, so we'll use the command lin
 
 1. Clone repo and download files, and enter folder locally through command line.
 
-2. Use Compass to watch for Sass style changes.
+2. Run Webpack for Javascript files.
     ```
-    compass watch
+    webpack --watch src/scripts.js js/scripts.js
     ```
-   Once css/styles.css has been written, exit the task.
-  
+    Once complete, exit the task.
     ```
     Ctrl+C
     ```
-  
+
 3. Execute Jekyll.
     ```
     jekyll serve
