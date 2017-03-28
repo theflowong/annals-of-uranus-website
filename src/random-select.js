@@ -9,3 +9,9 @@ function randomSelect(array) {
 // execute
 var random_pages = ['/shows/', '/buy/'];
 var random_page = randomSelect(random_pages);
+
+// TO IMPLEMENT:
+// to re-direct "etc." page: use meta, JavaScript code, and link
+// http://stackoverflow.com/questions/5411538/redirect-from-an-html-page
+
+// window.location = random_page;
