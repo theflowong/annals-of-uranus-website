@@ -5,6 +5,12 @@
   <meta name="description" content="Annals of Uranus">
   <meta name="author" content="Flo Wong">
 
+  {% if page.custom_js-start %}
+    {% for js in page.custom_js-start %}
+      <script type="text/javascript" src="/js/{{ js }}.js">
+    {% endfor %}
+  {% endif %}
+
   <link rel="stylesheet" href="/css/styles.css" type="text/css">
 
   <!--

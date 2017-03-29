@@ -7,8 +7,17 @@ function randomSelect(array) {
 }
 
 // execute
-var random_pages = ['/shows/', '/buy/'];
+var random_pages = [
+  '/artist-statement',
+  '/shows/',
+  '/buy/',
+  '/videos/'
+];
+
 var random_page = randomSelect(random_pages);
+
+console.log('random page testing: ', random_page);
+window.location = random_page;
 
 // TO IMPLEMENT:
 // to re-direct "etc." page: use meta, JavaScript code, and link
