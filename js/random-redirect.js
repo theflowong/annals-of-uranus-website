@@ -1,8 +1,7 @@
 var random_pages = [
-  '/artist-statement',
-  '/shows/',
-  '/buy/',
-  '/videos/'
+  '/random1/',
+  '/random2/',
+  '/random3/'
 ];
 
 // given an array, selects an item at random
